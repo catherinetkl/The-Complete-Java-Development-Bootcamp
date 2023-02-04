@@ -16,3 +16,13 @@ public class Variables {
     System.out.println(busTickets);
   }
 }
+
+// Updating variables
+// += operator updates by adding the value on the right
+
+// int passengers = 0; -- passengers = 0
+// passengers += 10; -- passengers = 10
+// System.out.println(passengers); -- passengers = 10
+
+// -= operator updates by subtracting the value on the right
+
