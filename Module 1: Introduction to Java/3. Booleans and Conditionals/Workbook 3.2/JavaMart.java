@@ -12,22 +12,25 @@ public class JavaMart {
           //       print: Sure!
           System.out.println("Sure!");
           //       pay for the toy car
+          wallet -= toyCar;
       } else {
         //else:  Sorry, I only have <wallet> left.
-        System.out.println("Sorry, I only have $ " + (wallet - toyCar) + " left.");
+        System.out.println("Sorry, I only have $ " + wallet + " left.");
       }
 
 
       double nike = 95.99;
       System.out.println("Can I get these nike shoes?");
-      if ((wallet - toyCar) >= nike) {
+      // if ((wallet - toyCar) >= nike) {
+      if (wallet >= nike) {
       //if you have enough money
           //       print: Sure!
           System.out.println("Sure!");
           //       pay for the nike shoes
+          wallet -= nike;
         } else {
           //else: Sorry, I only have <wallet> left.
-          System.out.println("Sorry, I only have $" + (wallet - toyCar) + " left.");
+          System.out.println("Sorry, I only have $" + wallet + " left.");
         }
   }
 }
